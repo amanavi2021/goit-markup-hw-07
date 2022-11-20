@@ -1,0 +1,45 @@
+
+.subscribe__text {
+    font-weight: 700;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $mainTitleColor;
+    margin-bottom: 20px;
+}
+
+.subscribe__form {
+    width: 570px;
+    display: flex;
+    gap: 12px;
+}
+
+.subscribe__input {
+    height: 50px;
+    width: 358px;
+    margin: 0;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    background-color: inherit;
+    outline: transparent;
+
+}
+
+.subscribe__input::placeholder,
+.subscribe__input {
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.subscribe__btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}

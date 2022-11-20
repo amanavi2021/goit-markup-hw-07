@@ -1,0 +1,32 @@
+.clients__list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients__item {
+    flex-basis: calc(100% - 30px * 5)/6;
+}
+
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+
+    transition: color 250ms $timingFunction,
+        border-color 250ms $timingFunction;
+
+    &:hover,
+    &:focus {
+        color: $accentColor;
+        border-color: $accentColor;
+    }
+}
+
+.clients__icon {
+    fill: currentColor;
+}
